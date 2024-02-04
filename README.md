@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+<H1 align ="center" > MERN STUDENT MANAGEMENT SYSTEM </h1>
+<h5  align ="center"> 
+Fullstack open source student management system application made with MongoDB, Express, React & Nodejs (MERN) </h5>
+<br/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  * [Configuration and Setup](#configuration-and-setup)
+  * [Key Features](#key-features)
+  * [Technologies used](#technologies-used)
+      - [Frontend](#frontend)
+      - [Backend](#backend)
+      - [Database](#database)
+  * [📸 Screenshots](#screenshots)
+  * [Author](#author)
+  * [License](#license)
 
-## Available Scripts
+## Configuration and Setup
 
-In the project directory, you can run:
+In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
 
-### `npm start`
+- Open the project in your prefered code editor.
+- Go to terminal -> New terminal (If you are using VS code)
+- Split your terminal into two (run the Frontend on one terminal and the server on the other terminal)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In the first terminal
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+$ cd Fronted
+$ npm install (to install Frontend-side dependencies)
+$ npm run dev(to start the Frontend)
+```
 
-### `npm test`
+In the second terminal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- cd Backend and Set environment variables in .env
+- Create your mongoDB connection url, which you'll use as your MONGO_URL
+- Supply the following credentials
 
-### `npm run build`
+```
+#  ---  Config.env  ---
+PORT =8070
+MONGO_URL =
+```
+```
+# --- Terminal ---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+$ npm install (to install backend-side dependencies)
+$ npm start (to start the backend)
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Key Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Add Student
+- Edit Student
+- Remove Student
+- No Student Page
+- 404 Page and many more
+- Responsive Design
 
-### `npm run eject`
+<br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##  Technologies used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project was created using the following technologies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+####  Frontend 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React js ](https://www.npmjs.com/package/react) - JavaScript library that is used for building user interfaces specifically for single-page applications
+- [React Hooks  ](https://reactjs.org/docs/hooks-intro.html) - For managing and centralizing application state
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - To handle routing
+- [axios](https://www.npmjs.com/package/axios) - For making Api calls
+- [Bootstrap](https://getbootstrap.com/) - For User Interface
+- [React icons](https://react-icons.github.io/react-icons/) - Small library that helps you add icons  to your react apps
+- [SweetAlert2](https://sweetalert2.github.io/) - PopUp
 
-## Learn More
+####  Backend 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Node js](https://nodejs.org/en/) -A runtime environment to help build fast server applications using JS
+- [Express js](https://www.npmjs.com/package/express) -The server for handling and routing HTTP requests
+- [cors](https://www.npmjs.com/package/cors) - Provides a Connect/Express middleware
+- [Mongoose](https://mongoosejs.com/) - For modeling and mapping MongoDB data to JavaScript
+- [Dotenv](https://www.npmjs.com/package/dotenv) - Zero Dependency module that loads environment variables
+- [Nodemon](https://www.npmjs.com/package/nodemon) - To monitor changes to the program code that is being developed
+####  Database 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ - [MongoDB ](https://www.mongodb.com/) - It provides a free cloud service to store MongoDB collections.
+ 
+ <!-- ##  Screenshots  -->
+ 
+![img-1](https://github.com/berthutapea/mern-student-management-system/assets/111676859/98de6bd3-cb9a-4a43-838a-67af9841a138)
+---- -
+![img-2](https://github.com/berthutapea/mern-student-management-system/assets/111676859/95960cde-a7d5-4617-903f-2fff0e2942e1)
+--- - 
+![img-3](https://github.com/berthutapea/mern-student-management-system/assets/111676859/76436990-a8d1-400a-9376-78ce02f2d247)
+--- - 
+![img-4](https://github.com/berthutapea/mern-student-management-system/assets/111676859/6cd0f24b-a516-454c-b975-87dc572dcbd9)
+--- - 
+![img-5](https://github.com/berthutapea/mern-student-management-system/assets/111676859/b746eba1-4ab1-4e50-a425-4ce5582f3cea)
 
-### Code Splitting
+## Author
+- Portfolio: [berthutapea](https://berthutapea.vercel.app/)
+- Github: [berthutapea](https://github.com/berthutapea)
+- Sponsor: [berthutapea](https://saweria.co/berthutapea)
+- Linkedin: [gilberthutapea](https://www.linkedin.com/in/gilberthutapea/)
+- Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Copyright (c) 2022 Gilbert Hutapea
 
-### Making a Progressive Web App
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
