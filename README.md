@@ -4,10 +4,6 @@ Fullstack open source student management system application made with MongoDB, E
 <br/>
 
 
-# FireChat
-This is a Chat App using React Js and Firebase.
-
-
 <img align="center" alt="" src="./src/Img/student1.png">
 <img align="center" alt="" src="./src/Img/student2.png">
 <img align="center" alt="" src="./src/Img/student3.png">
