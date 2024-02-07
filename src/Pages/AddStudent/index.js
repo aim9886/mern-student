@@ -70,7 +70,7 @@ export default function AddStudent() {
             type="number"
             className="form-control"
             id="nim"
-            placeholder="Enter Your Nim"
+            placeholder="Enter Your Usn"
             onChange={(e) => {
               setNim(e.target.value);
             }}
