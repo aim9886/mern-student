@@ -7,6 +7,7 @@ Fullstack open source student management system application made with MongoDB, E
 <img align="center" alt="" src="./src/Img/student1.png">
 <img align="center" alt="" src="./src/Img/student2.png">
 <img align="center" alt="" src="./src/Img/student3.png">
+<img align="center" alt="" src="./src/Img/student1.png">
 
 
 # Getting Started with Create React App
